@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Patrick+Hand+SC');
+
+html{
+  margin:0;
+  height:100%;
+}
+
+body{
+  background-color:white;
+  background-image:url("http://wallpapercave.com/wp/nYQO2LR.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-positon: center center;
+  background-attachment: fixed;
+}
+h2{
+  font-family: 'Lobster', cursive;
+  font-size:30px;
+  letter-spacing:5px;
+  margin-bottom:0;
+}
+
+p{
+  font-family: 'Patrick Hand SC', cursive;
+  margin:0;
+  padding:0;
+  font-size:30px;
+}
+#weather-box {
+  width:450px;
+  background-color: rgba(255,255,255,0.3);
+  border:3px solid black;
+  border-radius: 20px;
+  margin:40px auto;
+  text-align:center;
+}
+
+#weather-div #btnCel{
+  width:90px;
+  height:40px;
+  background-color:white;
+  border: 2px solid #555555;
+  border-radius:5px;
+  font-weight:bold;
+  color:black;
+  margin-top:20px;
+  margin-bottom:10px;
+  -webkit-transition: background-color 1s;
+   -moz-transition: background-color 1s;
+   -o-transition: background-color 1s;
+   transition: background-color 1s;
+}
+
+#weather-div #weatherStatus{
+  margin-top:10px;
+  width:90px;
+}
+
+#weather-div #btnCel:hover{
+    cursor: pointer;
+    background-color: #555555;
+    color: white;
+}
+
+@media only screen and (max-width: 768px){
+  body{
+    height:100%;
+  }
+  #weather-box {
+    border:2px solid black;
+    margin-top:50px;
+    margin-bottom:0;
+    width:100%;
+  }
+}
