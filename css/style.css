@@ -70,9 +70,9 @@ p{
     height:100%;
   }
   #weather-box {
-    border:2px solid black;
-    margin-top:50px;
-    margin-bottom:0;
-    width:100%;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-bottom: 0;
+    width: 90%;
   }
 }
